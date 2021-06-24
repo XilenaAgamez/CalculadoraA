@@ -1,18 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  titulo = 'calculadoraGC';
-  operandoA: number;
-  operandoB:number;
-  resultado:number;
-
-
-  onSumar():void{
-    this.resultado = this.operandoA = this.operandoB
-  }
+export class AppComponent   {
+  nombreApp = 'Calculadora-grupoCubo';
 }

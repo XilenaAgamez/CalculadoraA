@@ -1,27 +1,47 @@
-# Calculadora
+# App03
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+Este proyecto fue creado usando [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
+Este DEMO crea una simple calculadora utilizando varios elementos de Angular Material como botones y formControls.
+Esta app fue creada para dictar un curso de Angular 8 y enseñar las siguientes conceptos:
+
+- Data binding o cómo pasar parámetros entre componentes
+- Directivas (directives)
+- Creación de componentes
+- Angular Material:
+  - mat-form-field
+  - mat-select
+  - mat-card
+  - button
+  - GETTERS
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ejecutar `ng serve -o` para arrancar un development server (`http://localhost:4200/`). La app se recargará automáticamente cada vez que modifique algo en el código.
 
-## Code scaffolding
+## Generación de código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecutar `ng generate component path-name/component-name` para generar un nuevo componente. También podés usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Instalación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Previo a la instalación, es necesario que en el equipo donde se instalará esta app, existan los siguientes programas:
+- Node.Js ver10 o superior
+- npm
+- Angular CLI
+- git
 
-## Running unit tests
+Para la instalación:
+1) Clonar este repositorio en un directorio de la PC, utilizando el programa git  (ejemplo en WIN -> c:\sites   en Mac o Linux -> /opt/sites)
+   - $  git clone https://github.com/gtanoira/app03.git   (el símbolo $ denota el prompt del sistema operativo que uses)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2) Instalar todas las dependencias de la app. Correr el siguiente comando desde el directorio de la app:
+   - $  cd app03    (quedaría  c:\sites\app03 en Win   o   /opt/sites/app03 en Mac o Linux)
+   - $  npm install
 
-## Running end-to-end tests
+3) Arrancar el server (development)
+   - $  ng serve -o
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Author
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Esta app fue desarrollada por Gonzalo Martinez Tanoira
+gonzalo.mtanoira@gmail.com
